@@ -19,21 +19,23 @@ export const products = [
     slug: "unimetrix",
     content: (
       <div>
-        <p>
+        
         Maximize Your Reach. Amplify Your Impact.<br/><br/>
-At Uni Metrix, we help you:
 
-Track and analyze customer behavior
-Optimize campaigns for peak performance
-Personalize experiences across channels
-Measure ROI with precision
-Transform Your Marketing Strategy with Uni Metrix' Solutions:
-Performance Marketing
-Analytics and Reporting
-Content Optimization
-Lead Generation and Nurturing
+        <ul>At Uni Metrix, we help you:
+          <li>Track and analyze customer behavior</li>
+          <li>Optimize campaigns for peak performance</li>
+          <li>Personalize experiences across channels</li>
+          <li>Measure ROI with precision</li>
+        </ul>
+        <ul>Transform Your Marketing Strategy with Uni Metrix Solutions:
+          <li>Performance Marketing</li>
+          <li>Analytics and Reporting</li>
+          <li>Content Optimization</li>
+          <li>Lead Generation and Nurturing</li>
+        </ul>
 Elevate Your Brand. Elevate Your Business.
-        </p>
+        
        
       </div>
     ),
