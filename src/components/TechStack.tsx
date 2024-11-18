@@ -24,10 +24,10 @@ export const TechStack = () => {
       className: "h-10 w-8",
     },
     {
-      title: "Framer Motion",
-      src: "/images/logos/framer.webp",
+      title: "React",
+      src: "/images/logos/reactjs.png",
 
-      className: "h-10 w-10",
+      className: "h-10 w-14",
     },
     {
       title: "Node",

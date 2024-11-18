@@ -4,6 +4,7 @@ import { Highlight } from "@/components/Highlight";
 import { Paragraph } from "@/components/Paragraph";
 import { Products } from "@/components/Products";
 import { TechStack } from "@/components/TechStack";
+import { WorkHistory } from "@/components/WorkHistory";
 import Image from "next/image";
 
 export default function Home() {
@@ -21,6 +22,14 @@ export default function Home() {
         </Highlight> building scalable web apps
         that are performance optimized and good looking.
       </Paragraph>
+      <TechStack />
+      <Heading
+        as="h2"
+        className=" text-xl md:text-lg lg:text-3xl mt-20"
+      >
+        Work History 💼
+      </Heading>
+      <WorkHistory />
       <Heading
         as="h2"
         className="font-black text-lg md:text-lg lg:text-lg mt-20 mb-4"
@@ -28,7 +37,6 @@ export default function Home() {
         What I&apos;ve been working on
       </Heading>
       <Products />
-      <TechStack />
     </Container>
   );
 }
